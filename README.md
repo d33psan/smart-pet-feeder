@@ -18,7 +18,7 @@ The connections are done as shown in the circuit diagram:
 
 The RPi folder contains the following files:
 
-1. `save_pet.py`: This script is used to register a new pet and store its details onto the database. Run this script to register all the pets in the system. It interacts with the database to save pet information for future reference.
+1. `save_pet.py`: This script is used to register a new pet and store its details onto the database. Run this script to register all the pets in the system. It interacts with the database to save pet information for future reference. 
 
 2. `main.py`: This script implements the main functionality of the Smart Pet Feeder Application. It has two modes of operation: manual and automatic. 
    - In manual mode, the dispenser mechanism can be opened and closed manually at any time by the user.
@@ -35,12 +35,16 @@ The web application includes HTML, CSS, JavaScript, and other relevant assets re
 To set up and run the Smart Pet Feeder Application, follow these steps:
 
 1. Register the pets:
+   - Change the connection details in the mysqlconnector function to your database.
    - Run the `save_pet.py` script in the RPi folder to register each pet and store their details in the database.
 
 2. Run the main script:
+   - Change the connection details in the mysqlconnector function to your database.
    - Execute the `main.py` script in the RPi folder to start the main functionality of the application. Choose between manual and automatic mode as per your preference.
 
 3. Host the web application:
+   - Change the connection details in the 'common.php' file to your database.
+   - Change the Firebase configurations under the script of the pages 'index.php', 'manual.php' and 'automatic.php' to your Firebase Realtime Database.
    - Host the files from the Web App folder on a server of your choice. Make sure the server is accessible from the devices you intend to use to control the Smart Pet Feeder Application.
 
 4. Access the web application:
