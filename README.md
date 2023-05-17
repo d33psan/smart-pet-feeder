@@ -12,7 +12,7 @@ Hardware Required for this project are:
 4. Load Cell with HX711 Module
 
 The connections are done as shown in the circuit diagram:
-
+![image](https://github.com/d33psan/smart-pet-feeder/blob/main/Circuit%20Diagram.jpeg?raw=true)
 
 ## RPi Folder
 
