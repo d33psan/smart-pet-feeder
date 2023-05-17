@@ -27,10 +27,10 @@ servo = Servo(12, min_pulse_width=0.5/1000, max_pulse_width=2.5/1000, pin_factor
 servo.min()
 
 db = mysql.connector.connect(
-  host="sql12.freemysqlhosting.net",
-  user="sql12618051",
-  passwd="SsE8t7t545",
-  database="sql12618051"
+  host="",
+  user="",
+  passwd="",
+  database=""
 )
 
 config = {
