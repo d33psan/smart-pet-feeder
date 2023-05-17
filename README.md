@@ -51,3 +51,7 @@ To set up and run the Smart Pet Feeder Application, follow these steps:
 - Raspberry Pi with appropriate connectivity modules (e.g., RFID reader, Servo Motor, Load Cell)
 - Database system to store pet information
 - Server with hosting capabilities for the web application
+
+## Live Website
+
+You can view the app here: http://smartpetfeederapp.000webhostapp.com
