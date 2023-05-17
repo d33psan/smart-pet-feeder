@@ -115,14 +115,14 @@ require 'common.php';
 
 // Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyDVxlCiaLfXQvbKBNtHn7kbREvpwteMpCc",
-    authDomain: "smart-pet-feeder-f8232.firebaseapp.com",
-    databaseURL: "https://smart-pet-feeder-f8232-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "smart-pet-feeder-f8232",
-    storageBucket: "smart-pet-feeder-f8232.appspot.com",
-    messagingSenderId: "613572040437",
-    appId: "1:613572040437:web:4a2117afc3c3793afc57bc",
-    measurementId: "G-1C8CHXKXKQ"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 firebase.initializeApp(firebaseConfig);
   
